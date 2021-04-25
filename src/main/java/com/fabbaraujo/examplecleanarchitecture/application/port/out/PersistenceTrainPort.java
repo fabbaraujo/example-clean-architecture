@@ -5,5 +5,5 @@ import com.fabbaraujo.examplecleanarchitecture.application.domain.Train;
 import java.util.Optional;
 
 public interface PersistenceTrainPort {
-    Optional saveTrain(Train tain);
+    Optional saveTrain(Train train);
 }
